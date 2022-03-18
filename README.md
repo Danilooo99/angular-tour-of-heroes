@@ -1,27 +1,45 @@
-# AngularTourOfHeroes
+# DAW II - App que muestra diferentes héroes y sus detalles, pudiéndose realizar operaciones CRUD con los héroes - Tour of Heroes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+### Autor del proyecto
 
-## Development server
+Danilo Rivero Pérez - Grado en Ingeniería Informática - DAW II.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Descripción de la App y funcionalidades.
 
-## Code scaffolding
+Se ha creado una aplicación en Angular sobre diferentes personajes heroicos (héroes), tomando como ejemplo un tutorial de la documentación oficial de Angular. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Las funcionalidades de esta app son:
 
-## Build
+- Ver el top de héroes mediante un dashboard.
+- Ver los detalles de cada héroe.
+- Filtrar, usando un buscador, los héroes en tiempo real.
+- Añadir un héroe.
+- Borrar un héroe.
+- Modificar los detalles de un héroe en tiempo real.
+- Tener un historial de mensajes con todas las acciones que se realizan con los héroes
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Se podrá acceder al tutorial de este proyecto [aquí](https://angular.io/tutorial).
 
-## Running unit tests
+### Ejecutar el proyecto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para ejecutar este proyecto se deben seguir los siguientes paso:
 
-## Running end-to-end tests
+  1. Ejecutar en la terminal desde la ruta del proyecto, el comando: ```mpm install``` para instalar todas las dependencias del proyecto en Angular.
+  2. Ejecutar desde la terminal el servidor local con el comando: ```ng serve --open```
+  
+### Hosting de alojamiento del proyecto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Podrá ver el proyecto realizado [aquí](https://tutorial2-angular-tour-heroes.netlify.app/).
 
-## Further help
+## Tecnologías del Proyecto
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+| Tecnologías                                                           | Descripción                               |
+| --------------------------------------------------------------------- | ----------------------------------------- |
+| **[Angular](https://angular.io/)**                                    | Framework de JavaScript                   |
+| **[TypeScript](https://www.typescriptlang.org/)**                     | Superset de Javascript con tipado         |
+| **[CSS](https://www.w3schools.com/css/)**                             | Lenguaje de diseño gráfico                |
+
+
+
+
+
