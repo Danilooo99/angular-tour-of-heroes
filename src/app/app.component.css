@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Palette+Mosaic&display=swap');
+
+h1 {
+    margin-bottom: 0;
+}
+
+.autor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.autor p {
+    font-size: 1.3em;
+    font-family: 'Dancing Script', cursive;
+}
+
+nav a {
+    padding: 1rem;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #e8e8e8;
+    color: #3d3d3d;
+    border-radius: 4px;
+    margin:10px;
+}
+nav a:hover {
+    color: white;
+    background-color: #42545C;
+}
+nav a.active {
+    background-color: black;
+}
